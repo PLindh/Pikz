@@ -21,13 +21,6 @@ class EditorViewController: UIViewController, UIScrollViewDelegate, UIImagePicke
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var viewSize: UIView!
     
-    var lastPoint:CGPoint!
-    var isSwiping:Bool!
-    var red:CGFloat!
-    var green:CGFloat!
-    var blue:CGFloat!
-    
-    
     var originalImage : UIImage!
   
      var imagePicker = UIImagePickerController()
@@ -60,10 +53,6 @@ class EditorViewController: UIViewController, UIScrollViewDelegate, UIImagePicke
       var  image = theImage.image
         theImage.bounds = CGRect(x: 0, y: 0, width: (image?.size.width)!, height: (image?.size.height)!)
         scrollView.contentSize = (image?.size)!
-        
-        red = (0.0/255.0)
-        green = (0.0/255.0)
-        blue = (0.0/255.0)
         
         setZoomScale()
         //---------------------------------

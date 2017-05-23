@@ -56,7 +56,7 @@
                         <constraint firstAttribute="height" constant="64" id="tUj-Mh-dbu"/>
                     </constraints>
                 </view>
-                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dv8-Gc-a6m">
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dv8-Gc-a6m">
                     <rect key="frame" x="-0.5" y="64" width="375" height="375"/>
                     <gestureRecognizers/>
                     <constraints>
