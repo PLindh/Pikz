@@ -91,6 +91,7 @@ class EditorViewController: UIViewController, UIScrollViewDelegate, UIImagePicke
             pkcrviewUI.delegate = self
             [self .present(pkcrviewUI, animated: true , completion: nil)]
         }
+        setZoomScale()
     }
     
     @IBAction func imageFilterButtonTapped(_ sneder : UIButton){
